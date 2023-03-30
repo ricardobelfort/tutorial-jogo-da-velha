@@ -55,14 +55,14 @@ window.addEventListener("DOMContentLoaded", () => {
     switch (type) {
       case PLAYERO_WON:
         announcer.innerHTML =
-          'Jogador <span class="playerO">O</span> ganhou!';
+          'Jogador <span class="playerO">O</span> ganhou! 👏';
         break;
       case PLAYERX_WON:
         announcer.innerHTML =
-          'Jogador <span class="playerX">X</span> ganhou!';
+          'Jogador <span class="playerX">X</span> ganhou! 👏';
         break;
       case TIE:
-        announcer.innerText = "Deu empate!";
+        announcer.innerText = "Deu empate! 😕";
     }
     announcer.classList.remove("hide");
   };
